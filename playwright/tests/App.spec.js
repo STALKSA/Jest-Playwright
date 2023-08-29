@@ -33,7 +33,8 @@ test("Successful authorization", async () => {
   await page.fill('[placeholder="Email"]', email);
   await page.fill('[placeholder="Пароль"]', password);
   await page.click('[data-testid="login-submit-btn"]');
-  await page.waitForSelector("text=Моё обучение");
+  const pageTitle = await page.innerText("h2");
+  expect(pageTitle).toContain("Моё обучение");
   await page.screenshot({ path: "screenshotSuccessful.png", fullPage: true });
   browser.close();
 }, 60000);

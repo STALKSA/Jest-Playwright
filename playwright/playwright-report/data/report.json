@@ -1,0 +1,63 @@
+{
+  "files": [
+    {
+      "fileId": "4ad9e71e89576d8dfa51f0b2778fe8b46db54580",
+      "fileName": "App.spec.js",
+      "tests": [
+        {
+          "testId": "4ad9e71e89576d8dfa51f0b2778fe8b46db54580-5e4e0ecea9a847710cc25346158165701d9f32bf",
+          "title": "Failed authorization",
+          "projectName": "chromium",
+          "location": {
+            "file": "App.spec.js",
+            "line": 10,
+            "column": 1
+          },
+          "duration": 11634,
+          "outcome": "expected",
+          "path": [
+            "App.spec.js:10"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "4ad9e71e89576d8dfa51f0b2778fe8b46db54580-8d15f7526b41739381615705a440edca8cee6465",
+          "title": "Successful authorization",
+          "projectName": "chromium",
+          "location": {
+            "file": "App.spec.js",
+            "line": 26,
+            "column": 1
+          },
+          "duration": 17958,
+          "outcome": "expected",
+          "path": [
+            "App.spec.js:26"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 2,
+        "expected": 2,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true,
+        "duration": 29592
+      }
+    }
+  ],
+  "projectNames": [
+    "chromium"
+  ],
+  "stats": {
+    "total": 2,
+    "expected": 2,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "ok": true,
+    "duration": 29592
+  }
+}

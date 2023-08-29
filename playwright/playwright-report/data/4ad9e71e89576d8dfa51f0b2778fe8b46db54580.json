@@ -1,0 +1,266 @@
+{
+  "fileId": "4ad9e71e89576d8dfa51f0b2778fe8b46db54580",
+  "fileName": "App.spec.js",
+  "tests": [
+    {
+      "testId": "4ad9e71e89576d8dfa51f0b2778fe8b46db54580-5e4e0ecea9a847710cc25346158165701d9f32bf",
+      "title": "Failed authorization",
+      "projectName": "chromium",
+      "location": {
+        "file": "App.spec.js",
+        "line": 10,
+        "column": 1
+      },
+      "duration": 11634,
+      "outcome": "expected",
+      "path": [
+        "App.spec.js:10"
+      ],
+      "results": [
+        {
+          "duration": 11634,
+          "startTime": "2023-08-29T16:03:18.537Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-08-29T16:03:18.538Z",
+              "duration": 2,
+              "steps": []
+            },
+            {
+              "title": "browser.newPage",
+              "startTime": "2023-08-29T16:03:19.095Z",
+              "duration": 273,
+              "snippet": "\u001b[0m \u001b[90m 14 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m   \u001b[36mconst\u001b[39m page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewPage(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 15,
+                "column": 16
+              }
+            },
+            {
+              "title": "page.goto(https://netology.ru/?modal=sign_in)",
+              "startTime": "2023-08-29T16:03:19.370Z",
+              "duration": 5622,
+              "snippet": "\u001b[0m \u001b[90m 15 |\u001b[39m   \u001b[36mconst\u001b[39m page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewPage(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m incorrectEmail)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 16,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill([placeholder=\"Email\"])",
+              "startTime": "2023-08-29T16:03:24.993Z",
+              "duration": 1512,
+              "snippet": "\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m incorrectEmail)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m\u001b[33m,\u001b[39m incorrectPassport)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 17,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill([placeholder=\"Пароль\"])",
+              "startTime": "2023-08-29T16:03:26.505Z",
+              "duration": 641,
+              "snippet": "\u001b[0m \u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m incorrectEmail)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m\u001b[33m,\u001b[39m incorrectPassport)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[data-testid=\"login-submit-btn\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 18,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click([data-testid=\"login-submit-btn\"])",
+              "startTime": "2023-08-29T16:03:27.147Z",
+              "duration": 1197,
+              "snippet": "\u001b[0m \u001b[90m 18 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m\u001b[33m,\u001b[39m incorrectPassport)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[data-testid=\"login-submit-btn\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m   \u001b[36mconst\u001b[39m error \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'[data-testid=\"login-error-hint\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 19,
+                "column": 14
+              }
+            },
+            {
+              "title": "expect.toHaveText",
+              "startTime": "2023-08-29T16:03:28.348Z",
+              "duration": 47,
+              "snippet": "\u001b[0m \u001b[90m 20 |\u001b[39m   \u001b[36mconst\u001b[39m error \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'[data-testid=\"login-error-hint\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m   \u001b[36mawait\u001b[39m expect(error)\u001b[33m.\u001b[39mtoHaveText(\u001b[32m\"Вы ввели неправильно логин или пароль\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m\"screenshotFailed.png\"\u001b[39m\u001b[33m,\u001b[39m fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 21,
+                "column": 23
+              }
+            },
+            {
+              "title": "page.screenshot",
+              "startTime": "2023-08-29T16:03:28.396Z",
+              "duration": 1774,
+              "snippet": "\u001b[0m \u001b[90m 21 |\u001b[39m   \u001b[36mawait\u001b[39m expect(error)\u001b[33m.\u001b[39mtoHaveText(\u001b[32m\"Вы ввели неправильно логин или пароль\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m\"screenshotFailed.png\"\u001b[39m\u001b[33m,\u001b[39m fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 |\u001b[39m   browser\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 22,
+                "column": 14
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-08-29T16:03:30.170Z",
+              "duration": 1,
+              "steps": []
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": []
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "4ad9e71e89576d8dfa51f0b2778fe8b46db54580-8d15f7526b41739381615705a440edca8cee6465",
+      "title": "Successful authorization",
+      "projectName": "chromium",
+      "location": {
+        "file": "App.spec.js",
+        "line": 26,
+        "column": 1
+      },
+      "duration": 17958,
+      "outcome": "expected",
+      "path": [
+        "App.spec.js:26"
+      ],
+      "results": [
+        {
+          "duration": 17958,
+          "startTime": "2023-08-29T16:03:30.171Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2023-08-29T16:03:30.171Z",
+              "duration": 2,
+              "steps": []
+            },
+            {
+              "title": "browser.newPage",
+              "startTime": "2023-08-29T16:03:30.994Z",
+              "duration": 500,
+              "snippet": "\u001b[0m \u001b[90m 30 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 31 |\u001b[39m   \u001b[36mconst\u001b[39m page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewPage(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 32 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 31,
+                "column": 16
+              }
+            },
+            {
+              "title": "page.goto(https://netology.ru/?modal=sign_in)",
+              "startTime": "2023-08-29T16:03:31.495Z",
+              "duration": 6129,
+              "snippet": "\u001b[0m \u001b[90m 31 |\u001b[39m   \u001b[36mconst\u001b[39m page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewPage(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 32 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 33 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m email)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 32,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill([placeholder=\"Email\"])",
+              "startTime": "2023-08-29T16:03:37.624Z",
+              "duration": 1376,
+              "snippet": "\u001b[0m \u001b[90m 32 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 33 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m email)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 34 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m\u001b[33m,\u001b[39m password)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 33,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill([placeholder=\"Пароль\"])",
+              "startTime": "2023-08-29T16:03:39.001Z",
+              "duration": 517,
+              "snippet": "\u001b[0m \u001b[90m 33 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m email)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 34 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m\u001b[33m,\u001b[39m password)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[data-testid=\"login-submit-btn\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 34,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click([data-testid=\"login-submit-btn\"])",
+              "startTime": "2023-08-29T16:03:39.520Z",
+              "duration": 1287,
+              "snippet": "\u001b[0m \u001b[90m 34 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m\u001b[33m,\u001b[39m password)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[data-testid=\"login-submit-btn\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 36 |\u001b[39m   \u001b[36mconst\u001b[39m pageTitle \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39minnerText(\u001b[32m\"h2\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 35,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.innerText(h2)",
+              "startTime": "2023-08-29T16:03:40.810Z",
+              "duration": 5573,
+              "snippet": "\u001b[0m \u001b[90m 35 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[data-testid=\"login-submit-btn\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 36 |\u001b[39m   \u001b[36mconst\u001b[39m pageTitle \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39minnerText(\u001b[32m\"h2\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m   expect(pageTitle)\u001b[33m.\u001b[39mtoContain(\u001b[32m\"Моё обучение\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 36,
+                "column": 32
+              }
+            },
+            {
+              "title": "expect.toContain",
+              "startTime": "2023-08-29T16:03:46.385Z",
+              "duration": 0,
+              "snippet": "\u001b[0m \u001b[90m 36 |\u001b[39m   \u001b[36mconst\u001b[39m pageTitle \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39minnerText(\u001b[32m\"h2\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m   expect(pageTitle)\u001b[33m.\u001b[39mtoContain(\u001b[32m\"Моё обучение\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m\"screenshotSuccessful.png\"\u001b[39m\u001b[33m,\u001b[39m fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 37,
+                "column": 21
+              }
+            },
+            {
+              "title": "page.screenshot",
+              "startTime": "2023-08-29T16:03:46.386Z",
+              "duration": 1742,
+              "snippet": "\u001b[0m \u001b[90m 37 |\u001b[39m   expect(pageTitle)\u001b[33m.\u001b[39mtoContain(\u001b[32m\"Моё обучение\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m\"screenshotSuccessful.png\"\u001b[39m\u001b[33m,\u001b[39m fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m   browser\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 38,
+                "column": 14
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2023-08-29T16:03:48.128Z",
+              "duration": 0,
+              "steps": []
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": []
+        }
+      ],
+      "ok": true
+    }
+  ]
+}
