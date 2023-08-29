@@ -12,7 +12,7 @@ test("Failed authorization", async () => {
     headless: false,
     slowMo: 500,
   });
-  const page = await browser.newPage("https://netology.ru/?modal=sign_in");
+  const page = await browser.newPage();
   await page.goto("https://netology.ru/?modal=sign_in");
   await page.fill('[placeholder="Email"]', incorrectEmail);
   await page.fill('[placeholder="Пароль"]', incorrectPassport);
@@ -28,7 +28,7 @@ test("Successful authorization", async () => {
     headless: false,
     slowMo: 500,
   });
-  const page = await browser.newPage("https://netology.ru/?modal=sign_in");
+  const page = await browser.newPage();
   await page.goto("https://netology.ru/?modal=sign_in");
   await page.fill('[placeholder="Email"]', email);
   await page.fill('[placeholder="Пароль"]', password);

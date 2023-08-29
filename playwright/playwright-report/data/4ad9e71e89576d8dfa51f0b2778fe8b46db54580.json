@@ -11,28 +11,28 @@
         "line": 10,
         "column": 1
       },
-      "duration": 11634,
+      "duration": 9642,
       "outcome": "expected",
       "path": [
         "App.spec.js:10"
       ],
       "results": [
         {
-          "duration": 11634,
-          "startTime": "2023-08-29T16:03:18.537Z",
+          "duration": 9642,
+          "startTime": "2023-08-29T16:13:22.270Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2023-08-29T16:03:18.538Z",
+              "startTime": "2023-08-29T16:13:22.271Z",
               "duration": 2,
               "steps": []
             },
             {
               "title": "browser.newPage",
-              "startTime": "2023-08-29T16:03:19.095Z",
-              "duration": 273,
-              "snippet": "\u001b[0m \u001b[90m 14 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m   \u001b[36mconst\u001b[39m page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewPage(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2023-08-29T16:13:22.834Z",
+              "duration": 501,
+              "snippet": "\u001b[0m \u001b[90m 14 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m   \u001b[36mconst\u001b[39m page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "App.spec.js",
@@ -42,9 +42,9 @@
             },
             {
               "title": "page.goto(https://netology.ru/?modal=sign_in)",
-              "startTime": "2023-08-29T16:03:19.370Z",
-              "duration": 5622,
-              "snippet": "\u001b[0m \u001b[90m 15 |\u001b[39m   \u001b[36mconst\u001b[39m page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewPage(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m incorrectEmail)\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2023-08-29T16:13:23.340Z",
+              "duration": 4637,
+              "snippet": "\u001b[0m \u001b[90m 15 |\u001b[39m   \u001b[36mconst\u001b[39m page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m incorrectEmail)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "App.spec.js",
@@ -54,8 +54,8 @@
             },
             {
               "title": "page.fill([placeholder=\"Email\"])",
-              "startTime": "2023-08-29T16:03:24.993Z",
-              "duration": 1512,
+              "startTime": "2023-08-29T16:13:27.978Z",
+              "duration": 850,
               "snippet": "\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m incorrectEmail)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m\u001b[33m,\u001b[39m incorrectPassport)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -66,8 +66,8 @@
             },
             {
               "title": "page.fill([placeholder=\"Пароль\"])",
-              "startTime": "2023-08-29T16:03:26.505Z",
-              "duration": 641,
+              "startTime": "2023-08-29T16:13:28.828Z",
+              "duration": 525,
               "snippet": "\u001b[0m \u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m incorrectEmail)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m\u001b[33m,\u001b[39m incorrectPassport)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[data-testid=\"login-submit-btn\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -78,8 +78,8 @@
             },
             {
               "title": "page.click([data-testid=\"login-submit-btn\"])",
-              "startTime": "2023-08-29T16:03:27.147Z",
-              "duration": 1197,
+              "startTime": "2023-08-29T16:13:29.354Z",
+              "duration": 590,
               "snippet": "\u001b[0m \u001b[90m 18 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m\u001b[33m,\u001b[39m incorrectPassport)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[data-testid=\"login-submit-btn\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m   \u001b[36mconst\u001b[39m error \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'[data-testid=\"login-error-hint\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -90,8 +90,8 @@
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2023-08-29T16:03:28.348Z",
-              "duration": 47,
+              "startTime": "2023-08-29T16:13:29.948Z",
+              "duration": 20,
               "snippet": "\u001b[0m \u001b[90m 20 |\u001b[39m   \u001b[36mconst\u001b[39m error \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'[data-testid=\"login-error-hint\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m   \u001b[36mawait\u001b[39m expect(error)\u001b[33m.\u001b[39mtoHaveText(\u001b[32m\"Вы ввели неправильно логин или пароль\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m\"screenshotFailed.png\"\u001b[39m\u001b[33m,\u001b[39m fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -102,8 +102,8 @@
             },
             {
               "title": "page.screenshot",
-              "startTime": "2023-08-29T16:03:28.396Z",
-              "duration": 1774,
+              "startTime": "2023-08-29T16:13:29.969Z",
+              "duration": 1941,
               "snippet": "\u001b[0m \u001b[90m 21 |\u001b[39m   \u001b[36mawait\u001b[39m expect(error)\u001b[33m.\u001b[39mtoHaveText(\u001b[32m\"Вы ввели неправильно логин или пароль\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m\"screenshotFailed.png\"\u001b[39m\u001b[33m,\u001b[39m fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 |\u001b[39m   browser\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -114,7 +114,7 @@
             },
             {
               "title": "After Hooks",
-              "startTime": "2023-08-29T16:03:30.170Z",
+              "startTime": "2023-08-29T16:13:31.911Z",
               "duration": 1,
               "steps": []
             }
@@ -135,28 +135,28 @@
         "line": 26,
         "column": 1
       },
-      "duration": 17958,
+      "duration": 14566,
       "outcome": "expected",
       "path": [
         "App.spec.js:26"
       ],
       "results": [
         {
-          "duration": 17958,
-          "startTime": "2023-08-29T16:03:30.171Z",
+          "duration": 14566,
+          "startTime": "2023-08-29T16:13:31.912Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2023-08-29T16:03:30.171Z",
-              "duration": 2,
+              "startTime": "2023-08-29T16:13:31.912Z",
+              "duration": 1,
               "steps": []
             },
             {
               "title": "browser.newPage",
-              "startTime": "2023-08-29T16:03:30.994Z",
-              "duration": 500,
-              "snippet": "\u001b[0m \u001b[90m 30 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 31 |\u001b[39m   \u001b[36mconst\u001b[39m page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewPage(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 32 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2023-08-29T16:13:32.730Z",
+              "duration": 448,
+              "snippet": "\u001b[0m \u001b[90m 30 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 31 |\u001b[39m   \u001b[36mconst\u001b[39m page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 32 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "App.spec.js",
@@ -166,9 +166,9 @@
             },
             {
               "title": "page.goto(https://netology.ru/?modal=sign_in)",
-              "startTime": "2023-08-29T16:03:31.495Z",
-              "duration": 6129,
-              "snippet": "\u001b[0m \u001b[90m 31 |\u001b[39m   \u001b[36mconst\u001b[39m page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewPage(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 32 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 33 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m email)\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2023-08-29T16:13:33.178Z",
+              "duration": 4169,
+              "snippet": "\u001b[0m \u001b[90m 31 |\u001b[39m   \u001b[36mconst\u001b[39m page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 32 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 33 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m email)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "App.spec.js",
@@ -178,8 +178,8 @@
             },
             {
               "title": "page.fill([placeholder=\"Email\"])",
-              "startTime": "2023-08-29T16:03:37.624Z",
-              "duration": 1376,
+              "startTime": "2023-08-29T16:13:37.348Z",
+              "duration": 1020,
               "snippet": "\u001b[0m \u001b[90m 32 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 33 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m email)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 34 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m\u001b[33m,\u001b[39m password)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -190,8 +190,8 @@
             },
             {
               "title": "page.fill([placeholder=\"Пароль\"])",
-              "startTime": "2023-08-29T16:03:39.001Z",
-              "duration": 517,
+              "startTime": "2023-08-29T16:13:38.369Z",
+              "duration": 516,
               "snippet": "\u001b[0m \u001b[90m 33 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m email)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 34 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m\u001b[33m,\u001b[39m password)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[data-testid=\"login-submit-btn\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -202,8 +202,8 @@
             },
             {
               "title": "page.click([data-testid=\"login-submit-btn\"])",
-              "startTime": "2023-08-29T16:03:39.520Z",
-              "duration": 1287,
+              "startTime": "2023-08-29T16:13:38.886Z",
+              "duration": 803,
               "snippet": "\u001b[0m \u001b[90m 34 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m\u001b[33m,\u001b[39m password)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[data-testid=\"login-submit-btn\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 36 |\u001b[39m   \u001b[36mconst\u001b[39m pageTitle \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39minnerText(\u001b[32m\"h2\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -214,8 +214,8 @@
             },
             {
               "title": "page.innerText(h2)",
-              "startTime": "2023-08-29T16:03:40.810Z",
-              "duration": 5573,
+              "startTime": "2023-08-29T16:13:39.689Z",
+              "duration": 4953,
               "snippet": "\u001b[0m \u001b[90m 35 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[data-testid=\"login-submit-btn\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 36 |\u001b[39m   \u001b[36mconst\u001b[39m pageTitle \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39minnerText(\u001b[32m\"h2\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m   expect(pageTitle)\u001b[33m.\u001b[39mtoContain(\u001b[32m\"Моё обучение\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -226,8 +226,8 @@
             },
             {
               "title": "expect.toContain",
-              "startTime": "2023-08-29T16:03:46.385Z",
-              "duration": 0,
+              "startTime": "2023-08-29T16:13:44.642Z",
+              "duration": 1,
               "snippet": "\u001b[0m \u001b[90m 36 |\u001b[39m   \u001b[36mconst\u001b[39m pageTitle \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39minnerText(\u001b[32m\"h2\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m   expect(pageTitle)\u001b[33m.\u001b[39mtoContain(\u001b[32m\"Моё обучение\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m\"screenshotSuccessful.png\"\u001b[39m\u001b[33m,\u001b[39m fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -238,8 +238,8 @@
             },
             {
               "title": "page.screenshot",
-              "startTime": "2023-08-29T16:03:46.386Z",
-              "duration": 1742,
+              "startTime": "2023-08-29T16:13:44.644Z",
+              "duration": 1833,
               "snippet": "\u001b[0m \u001b[90m 37 |\u001b[39m   expect(pageTitle)\u001b[33m.\u001b[39mtoContain(\u001b[32m\"Моё обучение\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m\"screenshotSuccessful.png\"\u001b[39m\u001b[33m,\u001b[39m fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m   browser\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -250,7 +250,7 @@
             },
             {
               "title": "After Hooks",
-              "startTime": "2023-08-29T16:03:48.128Z",
+              "startTime": "2023-08-29T16:13:46.478Z",
               "duration": 0,
               "steps": []
             }

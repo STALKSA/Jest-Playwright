@@ -13,7 +13,7 @@
             "line": 10,
             "column": 1
           },
-          "duration": 11634,
+          "duration": 9642,
           "outcome": "expected",
           "path": [
             "App.spec.js:10"
@@ -29,7 +29,7 @@
             "line": 26,
             "column": 1
           },
-          "duration": 17958,
+          "duration": 14566,
           "outcome": "expected",
           "path": [
             "App.spec.js:26"
@@ -44,7 +44,7 @@
         "flaky": 0,
         "skipped": 0,
         "ok": true,
-        "duration": 29592
+        "duration": 24208
       }
     }
   ],
@@ -58,6 +58,6 @@
     "flaky": 0,
     "skipped": 0,
     "ok": true,
-    "duration": 29592
+    "duration": 24208
   }
 }
